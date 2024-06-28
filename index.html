@@ -1,0 +1,917 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="slick.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel='stylesheet' type='text/css' href='css/ionicons.min.css' >
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Document</title>
+
+    <script>
+        function openSideMenu(){
+            document.getElementById('menu').style.width='476px';
+            document.getElementById('menu').style.marginLeft='476px';
+            document.getElementById('menu').style.opacity='1';  
+            document.getElementById('menu').style.visibility ='visible';
+        }
+
+        function closeSideMenu(){
+            document.getElementById('menu').style.width='0';
+            document.getElementById('menu').style.visibility ='hidden';
+            document.getElementById('menu').style.opacity='0';           
+        }
+    </script>
+</head>
+<body>
+    <div class="loaded">
+        <div class="container">
+        <span class="slide">
+            <a href="#" onclick="openSideMenu()">
+                <i class="fas fa-bars"></i>
+            </a>
+        </span>
+       
+        <div id='menu' class="nav-row row">
+            <a href="#" id='close' class="close" onclick="closeSideMenu()">
+                <i class="fas fa-times"></i>
+                </a>
+                    <div class="col-md-2 menu-col"><a href="#">Home</a></div>
+                    <div class="col-md-2 menu-col"><a href="#">Abouts</a></div>
+                    <div class="col-md-2 menu-col"><a href="#">Services</a></div>
+                    <div class="col-md-2 menu-col"><a href="#">Contact</a></div>
+                    <div class="col-md-2 menu-col"><a href="#">Clients</a></div>   
+                    
+         
+            </div>
+        </div>
+      
+        <section class="intro">
+            <div class="container">
+                <div class="row">
+                    
+                    <div class="col-md-6 col-md-pull-6">
+                        <div class="intro-contents">
+                        <div class="inner">
+                        <div class="intro-text">
+                            <h1><b>Mi App</b></h1>
+                            <p>This is the coolest app you've ever seen, the amazing and great app made with love just for you</p>
+                        </div>
+                            <div class="download-buttons">
+                                
+                                <a href="#" class="appstore-btn">
+                                    <img src="images/appstore.png" alt="App Store" srcset="">
+                                </a>
+                                <a href="#" class="googleplay-btn">
+                                    <img src="images/google_play.jpg" alt="Google play Store" srcset="">
+                                </a>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-md-push-6">
+                        <div class="phone">
+                            <img src="bundle/img/phone1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features1-section">
+            <div class="container ">
+                
+                <div class="row feature1-row1">
+                    <div class="phone2">
+                       
+                    </div>
+                    <div class="col-md-12 features1-img">
+                        <img src="images/phone2.png" alt="" srcset="">
+                        </div>
+                        <div class="col-md-12 features1-text">
+                        <h1>An App That You'll Love</h1>
+                        <p>This app has a lot of cool features, you'll love them all. Lorem ipsum dolor sit amet is simply a dummy text used by lazy guys.</p>
+                    </div>
+                </div>
+                <div class="row feature1-row2">
+                        <div class="col-lg-4 col-md-4 col-sm-6 feature1-col">
+                            <div class="features1">
+                                <div class="feature1-icon">
+                                    <img src="images/heart.png" alt="" srcset="">
+                                </div>
+                                <div class="feature1-content">
+                                    <h4>MADE WITH LOVE</h4>
+                                    <small>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta iriure.</small>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="col-lg-4 col-md-4 col-sm-6 feature1-col">
+                            <div class="features1">
+                                <div class="feature1-icon">
+                                    <img src="images/refresh.png" alt="" srcset="">
+                                </div>
+                                <div class="feature1-content">
+                                    <h4>REGULAR UPDATES</h4>
+                                    <small>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta iriure.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-4 col-sm-6 feature1-col">
+                            <div class="features1">
+                                <div class="feature1-icon">
+                                    <img src="images/report.png" alt="" srcset="">
+                                </div>
+                                <div class="feature1-content">
+                                    <h4>BETTER REPORTS</h4>
+                                    <small>Lorem ipsum dolor sit amet, in quodsi vulputate pro. Ius illum vocent mediocritatem an, cule dicta iriure.</small>
+                                </div>
+                            </div>
+                        </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="features2" class="features2-section">
+            <div class="container">
+                <div class="row features2-row">
+                    <div class="col-lg-6 col-md-6 col-sm-12 features2-col">
+                        <div class="features2-content">
+                                <h2>Simple & Clean</h2>
+                                <p>The best ever app, for you. You're just a moment away from installing this app.</p>
+                                <a class="features2-btn" href="#"><b>GET STARTED</b></a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-sm-12 features2-col">
+                        <div class="features2-img">
+                            <img class="front-img" src="bundle/img/phone-black.png" alt="" >
+                            <img class='back-img' src="bundle/img/phone-white.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features3-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 features3-col">
+                        <div class="features3-img">                            
+                            <img class='back-img' src="bundle/img/phone-white.png" alt="">
+                            <img class="front-img" src="bundle/img/phone-black.png" alt="" >
+                        </div>
+                    </div>
+                    <div class="col-md-6 features3-col">
+                        <div class="features3-content">
+                            <h2>Most Powerful</h2>
+                                <p>The best ever app, for you. You're just a moment away from installing this app.</p>
+                                <a class="features3-btn" href="#"><b>GET STARTED</b></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="screenshots">
+            <div class="container">
+                <div class="screenshot-header">
+                    <h2>screenshots</h2>
+                    <p>Take a look at the app by its screenshots</p>
+                </div>
+                
+                <div class="row screenshots-row responsive">
+                
+                    <div class="col-md-3 col-sm-12 screenshot-img-col">
+                        <img src="bundle/img/people1.jpg" alt="">
+                        <div class="overlay">
+                            <a data-toggle="modal" data-target="#img1" class="view-btn">
+                                <i class="fas fa-plus view-icon"  ></i>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-6 screenshot-img-col ">
+                         <img src="bundle/img/people2.jpg" alt="">
+                         <div class="overlay">
+                            <a data-toggle="modal" data-target="#img2" class="view-btn">
+                                <i class="fas fa-plus view-icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-6 screenshot-img-col">
+                         <img src="bundle/img/people3.jpg" alt="">
+                         <div class="overlay">
+                            <a data-toggle="modal" data-target="#img3" class="view-btn">
+                                <i class="fas fa-plus view-icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="col-md-3 col-sm-6 screenshot-img-col">
+                         <img src="bundle/img/people4.jpg" alt="">
+                         <div class="overlay">
+                            <a data-toggle="modal" data-target="#img4" class="view-btn">
+                                <i class="fas fa-plus view-icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="screenshot-img-col col-md-3 col-sm-6">
+                         <img src="bundle/img/people4.jpg" alt="">
+                         <div class="overlay">
+                            <a data-toggle="modal" data-target="#img5" class="view-btn">
+                                <i class="fas fa-plus view-icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="screenshot-img-col col-md-3 col-sm-6">
+                         <img src="bundle/img/people4.jpg" alt="">
+                         <div class="overlay">
+                            <a data-toggle="modal" data-target="#img6" class="view-btn">
+                                <i class="fas fa-plus view-icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="screenshot-img-col col-md-3 col-sm-6">
+                         <img src="bundle/img/people4.jpg" alt="">
+                         <div class="overlay">
+                            <a data-toggle="modal" data-target="#img7" class="view-btn">
+                                <i class="fas fa-plus view-icon"></i>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="screenshot-img-col col-md-3 col-sm-6">
+                         <img src="bundle/img/people4.jpg" alt="">
+                         <div class="overlay">
+                            <a data-toggle="modal" data-target="#img8" class="view-btn">
+                                <i class="fas fa-plus view-icon"></i>
+                            </a>
+                        </div>
+                     </div>
+ 
+           </div>
+           <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active slick-prev slick-arrow"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class="slick-next slick-arrow"></li>
+            </ol>
+            </div>
+            
+
+              <div class="modal fade" id="img1" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">                    
+                    <div class="modal-body">
+                        <a id='cross' class="cross">
+                            <div class="row">
+                            <i class="fas fa-times" style="color: tan;"></i>
+                        </div>                        
+                         <img src="bundle/img/people1.jpg" alt=""></a>                    
+                        <h6 style="color: aliceblue;">1of8</h6>                    
+                    </div>                
+                </div>
+              </div>
+
+              <div class="modal fade" id="img2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">                    
+                    <div class="modal-body">
+                        <a id='cross' class="cross">
+                            <div class="row">
+                            <i class="fas fa-times" style="color: tan;"></i>
+                        </div>                        
+                         <img src="bundle/img/people1.jpg" alt=""></a>                    
+                        <h6 style="color: aliceblue;">2of8</h6>                    
+                    </div>                
+                </div>
+              </div>
+
+              <div class="modal fade" id="img3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">                    
+                    <div class="modal-body">
+                        <a id='cross' class="cross">
+                            <div class="row">
+                            <i class="fas fa-times" style="color: tan;"></i>
+                        </div>                        
+                         <img src="bundle/img/people1.jpg" alt=""></a>                    
+                        <h6 style="color: aliceblue;">3of8</h6>                    
+                    </div>                
+                </div>
+              </div>
+
+              <div class="modal fade" id="img4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">                    
+                    <div class="modal-body">
+                        <a id='cross' class="cross">
+                            <div class="row">
+                            <i class="fas fa-times" style="color: tan;"></i>
+                        </div>                        
+                         <img src="bundle/img/people1.jpg" alt=""></a>                    
+                        <h6 style="color: aliceblue;">4of8</h6>                    
+                    </div>                
+                </div>
+              </div>
+
+              <div class="modal fade" id="img5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">                    
+                    <div class="modal-body">
+                        <a id='cross' class="cross">
+                            <div class="row">
+                            <i class="fas fa-times" style="color: tan;"></i>
+                        </div>                        
+                         <img src="bundle/img/people1.jpg" alt=""></a>                    
+                        <h6 style="color: aliceblue;">5of8</h6>                    
+                    </div>                
+                </div>
+              </div>
+
+              <div class="modal fade" id="img6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">                    
+                    <div class="modal-body">
+                        <a id='cross' class="cross">
+                            <div class="row">
+                            <i class="fas fa-times" style="color: tan;"></i>
+                        </div>                        
+                         <img src="bundle/img/people1.jpg" alt=""></a>                    
+                        <h6 style="color: aliceblue;">6of8</h6>                    
+                    </div>                
+                </div>
+              </div>
+
+              <div class="modal fade" id="img7" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">                    
+                    <div class="modal-body">
+                        <a id='cross' class="cross">
+                            <div class="row">
+                            <i class="fas fa-times" style="color: tan;"></i>
+                        </div>                        
+                         <img src="bundle/img/people1.jpg" alt=""></a>                    
+                        <h6 style="color: aliceblue;">7of8</h6>                    
+                    </div>                
+                </div>
+              </div>
+
+              <div class="modal fade" id="img8" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered">                    
+                    <div class="modal-body">
+                        <a id='cross' class="cross">
+                            <div class="row">
+                            <i class="fas fa-times" style="color: tan;"></i>
+                        </div>                        
+                         <img src="bundle/img/people1.jpg" alt=""></a>                    
+                        <h6 style="color: aliceblue;">8of8</h6>                    
+                    </div>                
+                </div>
+              </div>
+            </div>
+        </section>
+
+        <section class="features4-section">
+            <div class="container">
+                <div class="row features4-row">
+                    <div class="col-md-4 col-sm-6 features4-col">
+                        <div class="features4 features4-left">
+                            <div class="feature4-icon">
+                                <img src="images/heart.png" alt="" srcset="">
+                            </div>
+                            <div class="feature4-content">
+                                <h4>BEAUTIFUL DESIGN</h4>
+                                <small>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has.</small>
+                            </div>
+                        </div>
+                        
+                        <div class="features4 features4-left">
+                            <div class="feature4-icon">
+                                <img src="images/refresh.png" alt="" srcset="">
+                            </div>
+                            <div class="feature4-content">
+                                <h4>REGULAR UPDATES</h4>
+                                <small>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has.</small>
+                            </div>
+                        </div>
+                    </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="features4-img">
+                        <img src="bundle/img/phone1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6">
+                    <div class="features4 features4-right">
+                        <div class="feature4-icon">
+                            <img src="images/shopping-cart1.png" alt="" srcset="">
+                        </div>
+                        <div class="feature4-content">
+                            <h4>Cart System</h4>
+                            <small>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has.</small>
+                        </div>
+                    </div>
+                    
+                    <div class="features4 features4-right">
+                        <div class="feature4-icon">
+                            <img src="images/magic.jpg" alt="" srcset="">
+                        </div>
+                        <div class="feature4-content">
+                            <h4>Magical App</h4>
+                            <small>Ad oportere voluptatibus nec, sea ei civibus praesent. At timeam expetenda inciderint has.</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id='video' class="video-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 video-feature-col">
+                        <h2>Easily embed a cool video for your app</h2>
+                        <p>No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip et. Ex atqui voluptatibus eum, cu case intellegebat eum, mea ex regione patrioque signiferumque. Pri ei solet graecis.</p>
+                    </div>
+                    <div class="col-md-8 col-sm-12 video">
+                        <video class="tab" controls>Your browser does not support the &lt;video&gt; tag.
+                            <source src="videos/video.mp4"/>
+                          </video>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="pricing">
+            <div class="container">
+                <div class="row pricing-row">
+                <div class="col-md-4 pricing-content-col">
+                    <div class="pricing-content">
+                        <h2>Choose your plan or get started with free trial</h2>
+                        <p>
+                            Semper torquatos est no. cule at discere offendit, cule et fugit iuvaret omittam. Eu sint labore pri, ea probo tollit lobortis mea. Integre blandit aliquando ei vel, sit eirmod vituperata eu.
+                        </p>
+                        <a href="#" class="pricing-btn">
+                            Get Free Trial
+                        </a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pricing-card" style="width: 22rem;">
+                        <div class="card-body pricing-card-content">
+                          <h3>Basic</h3>
+                            <span class="currency">$</span>
+                            <span class="amount">13</span>
+                            <span class="period">/mo</span>
+                            <div class="card-para">
+                          <p class="card-text">1TB Storage</p>
+                          <p class="card-text">Late Support</p>
+                          <p class="card-text">3Tasks /Day</p>
+                        </div>
+                          <a href="#" class="pricing-btn">Sign Up</a>
+                        </div>
+                      </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card pricing-card" style="width: 22rem;">
+                        <div class="card-body pricing-card-content">
+                          <h3>Pro</h3>
+                            <span class="currency">$</span>
+                            <span class="amount">24</span>
+                            <span class="period">/mo</span>
+                            <div class="card-para">
+                          <p class="card-text">1TB Storage</p>
+                          <p class="card-text">Instant Support</p>
+                          <p class="card-text">Unlimited Tasks /Day</p>
+                        </div>
+                          <a href="#" class="pricing-btn">Sign Up</a>
+                        </div>
+                      </div>
+                </div>
+            </div>
+            </div>
+        </section>
+
+
+        <section class="subscribe-section">
+            <div class="container subscribe-container">
+                <div >
+                    <form class="subscribe-form"> 
+                    <h4>SUBSCRIBE TO NEWSLETTER</h4>
+                   <td><input type="email" class="subscribe-input" placeholder="Enter Your Mail" required></td>
+                    <a href="login.html" class="subscribe-btn" >SUBSCRIBE</a>
+                    <br/>
+                    <p>Don't worry, we will never sell or share your info</p>
+                </form>
+                </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team-section">
+            <div class="container">
+                <div class="row team-row">
+                    <div class="col-md-4">
+                        <div class="team-content">
+                            <h2>Meet the geniuses behind this amazing app</h2>
+                            <p>
+                                No dolorem blandit theophrastus eos, nam eu persecuti repudiandae, duo hinc vide aliquip et. Ex atqui voluptatibus eum, cu case intellegebat eum, mea ex regione patrioque signiferumque.
+                            </p>
+                            <a href="#" class="team-btn">
+                               Join Our Team
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col md-8">
+                        <div class="member-container">
+                        <div class="row member-img-row">
+                            <div class="col-md-4 member-img-col">
+                                <div class="member-img">
+                                    <img src="bundle/img/people1.jpg" alt="">
+                                    <div class="team-overlay" style="width: 90%; margin-left: 10%;">
+                                        <div class="align">
+                                            <div class="team-inner">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder &amp; CEO</p>
+                                                <ul class="team-social">
+                                                
+                                                        <a href="#">
+                                                            <i class="fab fa-facebook"></i>
+                                                        </a>
+                                                    
+                                                  
+                                                        <a href="#">
+                                                            <i class="fab fa-google-plus"></i>
+                                                        </a>
+                                                    
+                                                        <a href="#">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 member-img-col">
+                                <div class="member-img">
+                                    <img src="bundle/img/people2.jpg" alt="">
+                                    <div class="team-overlay">
+                                        <div class="align">
+                                            <div class="team-inner">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder &amp; CEO</p>
+                                                <ul class="team-social">
+                                                
+                                                        <a href="#">
+                                                            <i class="fab fa-facebook"></i>
+                                                        </a>
+                                                    
+                                                  
+                                                        <a href="#">
+                                                            <i class="fab fa-google-plus"></i>
+                                                        </a>
+                                                    
+                                                        <a href="#">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 member-img-col">
+                                <div class="member-img">
+                                    <img src="bundle/img/people3.jpg" alt="">
+                                    <div class="team-overlay" style="width: 110%;">
+                                        <div class="align">
+                                            <div class="team-inner">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder &amp; CEO</p>
+                                                <ul class="team-social">
+                                                
+                                                        <a href="#">
+                                                            <i class="fab fa-facebook"></i>
+                                                        </a>
+                                                    
+                                                  
+                                                        <a href="#">
+                                                            <i class="fab fa-google-plus"></i>
+                                                        </a>
+                                                    
+                                                        <a href="#">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                                  
+                        </div>
+                        <div class="row member-img-row">
+                            <div class="col-md-4 member-img-col">
+                                <div class="member-img">
+                                    <img src="bundle/img/people1.jpg" alt="">
+                                    <div class="team-overlay" style="margin-left: 10%; width: 90%;">
+                                        <div class="align">
+                                            <div class="team-inner">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder &amp; CEO</p>
+                                                <ul class="team-social">
+                                                
+                                                        <a href="#">
+                                                            <i class="fab fa-facebook"></i>
+                                                        </a>
+                                                    
+                                                  
+                                                        <a href="#">
+                                                            <i class="fab fa-google-plus"></i>
+                                                        </a>
+                                                    
+                                                        <a href="#">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 member-img-col">
+                                <div class="member-img">
+                                    <img src="bundle/img/people2.jpg" alt="">
+                                    <div class="team-overlay">
+                                        <div class="align">
+                                            <div class="team-inner">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder &amp; CEO</p>
+                                                <ul class="team-social">
+                                                
+                                                        <a href="#">
+                                                            <i class="fab fa-facebook"></i>
+                                                        </a>
+                                                    
+                                                  
+                                                        <a href="#">
+                                                            <i class="fab fa-google-plus"></i>
+                                                        </a>
+                                                    
+                                                        <a href="#">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 member-img-col">
+                                <div class="member-img">
+                                    <img src="bundle/img/people3.jpg" alt="">
+                                    <div class="team-overlay" style="width: 110%;">
+                                        <div class="align">
+                                            <div class="team-inner">
+                                                <h4>Jake Doe</h4>
+                                                <p>Founder &amp; CEO</p>
+                                                <ul class="team-social">
+                                                
+                                                        <a href="#">
+                                                            <i class="fab fa-facebook"></i>
+                                                        </a>
+                                                    
+                                                  
+                                                        <a href="#">
+                                                            <i class="fab fa-google-plus"></i>
+                                                        </a>
+                                                    
+                                                        <a href="#">
+                                                            <i class="fab fa-twitter"></i>
+                                                        </a>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>                                                  
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="client-section">
+            <div class="container">
+                <div class="client-header">
+                    <h2>Our Clients</h2>
+                    <p>Take a look at our clients and see what they say about us</p>
+                </div>
+                <div class="row">
+                <div class="col-md-6 col-lg-6 col-sm-12">
+                    <div class="container logos">
+                        <div class="row logos-row">
+                            <div class="col-md-4 client-img-col">
+                                <img src="bundle/img/logo1.png" alt="">
+                            </div>
+                            <div class="col-md-4 client-img-col">
+                                <img src="bundle/img/logo1.png" alt="">
+                            </div>
+                            <div class="col-md-4 client-img-col">
+                                <img src="bundle/img/logo1.png" alt="">
+                            </div>
+                            
+                        </div>
+                        <div class="row logos-row">
+                            <div class="col-md-4 client-img-col">
+                                <img src="bundle/img/logo1.png" alt="">
+                            </div>
+                            <div class="col-md-4 client-img-col">
+                                <img src="bundle/img/logo1.png" alt="">
+                            </div>
+                            <div class="col-md-4 client-img-col">
+                                <img src="bundle/img/logo1.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    <div class="col-lg-6 col-md-6 col-sm-1 quote-col">
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                            </ol>
+                        <div class="carousel-inner">
+                          <div class="carousel-item active cl-items">
+                            <div class="quotation">
+                                <div class="icon">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                </div>
+                                <div class="quotation-content">
+                                    <p>
+                                        An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea, everti liberavisse no sit.
+                                    </p>
+                                </div>
+                                <div class="author">
+                                    <h4>Michael Doe</h4>
+                                    <span>CEO @ Google</span>
+                                </div>
+                            </div>
+                          </div>
+                          <div class="carousel-item cl-items">
+                            <div class="quotation">
+                                <div class="icon">
+                                    <i class="fa fa-quote-left" aria-hidden="true"></i>
+                                </div>
+                                <div class="quotation-content">
+                                    <p>
+                                        An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea, everti liberavisse no sit.
+                                    </p>
+                                </div>
+                                <div class="author">
+                                    <h4>Michael Doe</h4>
+                                    <span>CEO @ Google</span>
+                                </div>
+                            </div>
+                          </div>
+                        </div>
+                       
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="faq-section">
+            <div class="container">
+            <div class="faq-header">
+                <h2>FAQ</h2>
+                <p>Most common questions, answered here</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-6">
+                    <div class="faq">
+                        <h5>Why is this so cheap?</h5>
+                        <p>
+                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea.
+                        </p>
+                    </div>
+                    <div class="faq">
+                        <h5>Why Choose Us?</h5>
+                        <p>
+                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea.
+                        </p>
+                    </div>
+                    <div class="faq">
+                        <h5>What will you get?</h5>
+                        <p>
+                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-6">
+                    <div class="faq">
+                        <h5>How many days will you get trial?</h5>
+                        <p>
+                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea.
+                        </p>
+                    </div>
+                    <div class="faq">
+                        <h5>What can I do with this app?</h5>
+                        <p>
+                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea.
+                        </p>
+                    </div>
+                    <div class="faq">
+                        <h5>Why is this so cheap?</h5>
+                        <p>
+                            An has alterum nominavi. Nam at elitr veritus voluptaria. Cu eum regione tacimates vituperatoribus, ut mutat delenit est. Adhuc scripserit et sea.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+
+        <section class="download-section">
+            <div class="container">
+                <div class="row download-row">
+                    <div class="col-md-12">
+                        <div class="download-text">
+                            <h2>Download App Now</h2>
+                            <p>Nam reformidans vituperatoribus at. Id nisl diceret maiestatis qui, mel affert doctus te. Ex assum ocurreret eam. Lorem ipsum dolor sit amet is simply a dummy text.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="download-btn download-row">
+                    <a href="#" class="appstore-btn">
+                        <img src="images/appstore.png" alt="">
+                    </a>
+                    <a href="#" class="googleplay-btn">
+                        <img src="images/google_play.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class=" contact-section">
+            <div class="container">
+                <div class="contact-header">
+                    <h1>Contact Us</h1>
+                    <p>Feel free to contact us for any help</p>
+                </div>
+                <form class="contact-form" data-toggle="validator" method="GET" novalidate="true">
+                    <div id="contact-form-result"></div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                
+                                <input type="text" id="fullname" class="form-control" placeholder="Full Name" name="name" required>
+                                <div id="errorName"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" class="form-control" placeholder="Email" name="email" required="@">
+                                <div id="errorEmail"></div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" class="form-control" placeholder="Subject" name="subject" required="">
+                                <div id="errorSubject"></div>
+                     </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <textarea id="message" class="form-control contact-textarea" placeholder="Message" name="message" required></textarea>
+                                <div id="errorMessage"></div>
+                            </div>
+                            <div class="form-group">
+                               <button type="submit" class="contact-btn">Send Message</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                <p>Copyright Mi App © 2016. a Noman Ali Samejo Production</p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script src="validation.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="slide.js"></script>
+<script src="slick.min.js"></script>
+<script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</html>
